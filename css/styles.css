@@ -1,0 +1,263 @@
+/* General selectors */
+h2 {
+  color: #212e33;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+/* Title Section */
+#title-section {
+  background-image: url("../images/title-bg.jpg");
+  background-repeat: no-repeat;
+	background-position: center center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #212e57;
+  opacity: 0.9;
+}
+
+.title-content {
+  color: #fff;
+  padding: 9% 7%;
+  text-align: center;
+}
+
+.kaycee-logo {
+  display: inline-block;
+  margin: 30px;
+  width: 10%;
+}
+
+.welcome-title {
+  font-family: 'Cinzel', serif;
+  font-size: 5.5rem;
+}
+
+@media (max-width: 614px) {
+  .welcome-title {
+    font-size: 4rem;
+  }
+}
+
+.lead {
+  font-size: 1.6rem;
+}
+
+.title-button {
+  background-color: #212e57;
+  color: #fff;
+  padding: 0.8rem 2rem;
+}
+
+.title-button:hover {
+  background-color: #ddd;
+  color: #212e57;
+}
+
+/* About Section */
+#about {
+  background-color: #f9f9f9;
+  padding: 9% 7%;
+  text-align: center;
+}
+
+.ceo-and-about {
+  background-color: rgba(225, 160, 46, 0.1);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+@ media (min-width: 728) and (max-w) 1040
+.ceo-card {
+  width: 100%;
+}
+
+.ceo-card .card-body {
+  padding: 0;
+}
+
+.ceo-card .card-title {
+  margin-bottom: .3rem;
+}
+
+.about-desc {
+  font-size: 1.2rem;
+  margin: auto 0;
+  text-align: justify;
+}
+
+@media (min-width: 1173px) {
+  .about-desc {
+    font-size: 1.3rem;
+  }
+}
+
+.about-col {
+  padding: 0 3.5rem;
+}
+
+.about-fas {
+  color: #212e57;
+  margin-bottom: 4rem;
+}
+
+.about-fas:hover {
+  color: #212e33;
+  transition: color 1s ease-in-out;
+}
+
+.about-thumbs {
+  color: #212e33;
+}
+
+.about-col p {
+  color: #777;
+}
+
+/* Courses Section */
+#courses {
+  background-color: #212e57;
+  color: #fff;
+  padding: 9% 7%;
+  text-align: center;
+}
+
+#courses h2 {
+  color: #fff;
+}
+
+.reg-button {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #212e57;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+}
+
+.reg-button:hover {
+  background-color: #212e33;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.20s ease-in-out, background-color 0.20s ease-in-out;
+}
+
+/* Courses Modal */
+.course-div {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.modal-trigger {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.modal-trigger:hover {
+  opacity: 1;
+  transition: opacity 0.20s ease-in-out;
+}
+
+.modal-title {
+  color: #212e33;
+}
+
+.modal-body{
+  color: #212e33;
+  font-size: 1.2rem;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+.modal-course-desc {
+  background-color: #212e57;
+  border-radius: 0.4rem;
+  color: #fff;
+  margin-top: 0.8rem;
+  padding: 1rem;
+  text-align: justify;
+}
+
+.modal-reg-button {
+  background-color: #212e57;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+}
+
+.modal-reg-button:hover {
+  background-color: #212e33;
+  color: #eee;
+  text-decoration: none;
+  transition: color 0.20s ease-in-out, background-color 0.20s ease-in-out;
+}
+
+/* Modal Media Queries */
+@media (min-width: 767px) and (max-width: 990px) {
+  .second-trigger {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1065px) {
+  .second-trigger {
+    margin-top: 4rem;
+  }
+
+  .course-title-one {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (min-width: 1066px) and (max-width: 1237px) {
+  .second-trigger {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1238px) {
+  .second-trigger {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .course-three-div {
+    margin: 0 auto;
+  }
+}
+
+/* Contact Section */
+#contact-us {
+  padding: 9% 7%;
+  text-align: center;
+}
+
+.contact-details {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+/* #212e57
+#e1a02e */
+
+
+
+/*
+ Fonts that I'm saving to use:
+
+font-family: 'Cinzel', serif;
+font-family: 'Montserrat', sans-serif; */
